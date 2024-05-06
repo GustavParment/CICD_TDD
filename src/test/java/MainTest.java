@@ -5,14 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
 
- Main main;
- @BeforeEach
- void setUp() {
-     main = new Main();
- }
-
     @Test
-    void toNameFormat() {
-     assertEquals("anna", main.toNameFormat("anna"));
+    void testingGithubActions() {
+     assertEquals(5,3);
     }
 }
